@@ -31,7 +31,7 @@ public class PointTest {
 
     @Test
     public void when00to55then2() {
-        double expected = 7.0710678118654;
+        double expected = 7.07;
         int x1 = 0;
         int y1 = 0;
         int x2 = 5;
