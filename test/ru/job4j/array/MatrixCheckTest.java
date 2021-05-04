@@ -8,7 +8,7 @@ import org.junit.Test;
 public class MatrixCheckTest {
 
     @Test
-    public void whenHasMonoHorizontal() {
+    public void whenHasNotMonoHorizontal() {
         char[][] input = {
                 {' ', 'X', ' '},
                 {' ', ' ', 'X'},
