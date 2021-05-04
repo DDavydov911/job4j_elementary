@@ -1,4 +1,5 @@
 package ru.job4j.array;
+
 public class LengthArrayArray {
     public static void main(String[] args) {
         int[][] numbers = {{1}, {4, 5}, {7, 8, 9}, {10, 11, 12, 13}};
