@@ -9,6 +9,6 @@ public class ChessBoard {
         if (Math.abs(x2 - x1) == Math.abs(y2 - y1) && x2 - x1 != 0) {
             res = Math.abs(x2 - x1);
         }
-        return  res;
+        return res;
     }
 }
