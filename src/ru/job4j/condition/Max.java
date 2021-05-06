@@ -7,10 +7,10 @@ public class Max {
     }
 
     public static int max(int left, int middle, int right) {
-        return left > right && left > middle ? left : middle > right ? middle : right;
+        return max(max(left, middle), right);
     }
 
     public static int max(int first, int second, int third, int fourth) {
-        return first > second && first > third && first > fourth ? first : second > third && second > fourth && second > first ? second : third > fourth ? third : fourth;
+        return max(max(first, second), max(third, fourth));
     }
 }
